@@ -1,0 +1,34 @@
+.work{
+    margin-left: 125px;
+    background-color: #1387812a;
+}
+.work-exp{
+    padding: 60px 0px;
+}
+.work-exp hr{
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+.work h2{
+    font-weight: bold;
+    color: #1e1e2c;
+}
+.work-exp .vertical-timeline-element-title{
+    color: #138781;
+}
+.work-exp .vertical-timeline-element-subtitle{
+    color: #1e1e2cc7;
+}
+/* Mobile */
+@media (max-width:600px) {
+    .work_experience{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .work_experience hr{
+        width: 280px;
+        margin: bottom 10px; ;
+    }
+}
