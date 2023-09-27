@@ -29,7 +29,7 @@ const Menus = ({toggle}) => {
                         </Link>
                     </div>
                     <div className='nav-link'>
-                        <Link to='tech stack' spy={true} smooth={true} offset={-100} duration={100}>
+                        <Link to='tech_stack' spy={true} smooth={true} offset={-100} duration={100}>
                         <FcBiotech/>Tech Stack
                         </Link>
                     </div>
@@ -39,7 +39,7 @@ const Menus = ({toggle}) => {
                         </Link>
                     </div>
                     <div className='nav-link'>
-                        <Link to='work experience' spy={true} smooth={true} offset={-100} duration={100}>
+                        <Link to='work_experience' spy={true} smooth={true} offset={-100} duration={100}>
                         <FcPortraitMode/>Work Experience
                         </Link>
                     </div>
@@ -71,7 +71,7 @@ const Menus = ({toggle}) => {
                         </Link>
                     </div>
                     <div className='nav-link'>
-                        <Link to='tech stack' spy={true} smooth={true} offset={-100} duration={100}>
+                        <Link to='tech_stack' spy={true} smooth={true} offset={-100} duration={100}>
                         <FcBiotech title='Tech Stack'/>
                         </Link>
                     </div>
@@ -81,7 +81,7 @@ const Menus = ({toggle}) => {
                         </Link>
                     </div>
                     <div className='nav-link'>
-                        <Link to='work experience' spy={true} smooth={true} offset={-100} duration={100}>
+                        <Link to='work_experience' spy={true} smooth={true} offset={-100} duration={100}>
                         <FcPortraitMode title='Work Expreience'/>
                         </Link>
                     </div>
